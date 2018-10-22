@@ -86,7 +86,7 @@ int main()
 			{	
 				cout<<"Enter edge and weight(-1 -1 -1 to exit) : ";
 				cin>>source>>destn>>weight;
-				if(source ==-1 && destn == -1)
+				if(source ==-1 && destn == -1 && weight == -1)
 					break;
 				addEgde(adjM,source,destn,weight,nodes);
 			}
@@ -95,9 +95,9 @@ int main()
 		case 2:
 			for (int i = 0; i < max_edges; ++i)
 			{	
-				cout<<"Enter edge and weight(-1 -1 to exit) : ";
+				cout<<"Enter edge and weight(-1 -1 -1 to exit) : ";
 				cin>>source>>destn>>weight;
-				if(source ==-1 && destn == -1)
+				if(source ==-1 && destn == -1 && weight == -1)
 					break;
 				addEgde(adjM,source,destn,weight,nodes);
 				addEgde(adjM,destn,source,weight,nodes);
