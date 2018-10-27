@@ -155,4 +155,8 @@ Index 2 has elements  -> LIKE -> FIRST -> PLACE -> THEN
 Index 3 has elements  -> TREE -> FIND -> GROW
 Index 4 has elements  -> AND
 
+Enter item to search : FIRST
+Hashvalue = 2
+Item found at index 2 
+
 */
